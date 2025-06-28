@@ -1128,4 +1128,65 @@ span{
     margin-top: -1rem;
     text-align: right;
   }
+  .resume-list {
+    grid-template-columns: 1fr;
+    height: auto;
+    overflow: visible;
+  }
+
+  .resume-list .resume-item {
+    height: auto;               /* Remove fixed height */
+    padding: 2rem;
+  }
+
+  .resume-box .heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .resume-box p.desc {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .certification-container {
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+  }
+
+  .certification-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .certification-box img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .certification-box .live-drive {
+    justify-content: center;
+  }
+
+  .certification-box .navigation {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .certification-box .numb {
+    font-size: 6rem;
+  }
+
+  .certification-box h3 {
+    font-size: 2.8rem;
+  }
+
+  .certification-box p {
+    font-size: 1.4rem;
+  }
+
+  .certification-box .tech {
+    font-size: 1.4rem;
+  }
 }
